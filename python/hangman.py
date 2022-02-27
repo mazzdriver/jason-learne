@@ -3,18 +3,19 @@ def get_words():
 	word_to_solve = input('Введите слово, которое будут отгадывать: ')
 	word_to_show = ['_' * len(word_to_solve)]
 	return word_to_solve,word_to_show
-	
 
-	
+
 def mainframe(attempt, word_to_solve, word_to_show):
 	
 	if attempt in word_to_solve:
 		good = word_to_solve.index(attempt)
 		word_to_show[good] = attempt
-	
+
+
 def win(word_given, word_got):
 	if word_given == word_got:
 		is_discovered = True
+
 
 def bad_try(errors, attempt):
 	errors += 1

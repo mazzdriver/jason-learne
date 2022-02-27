@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/python/Game_Hangman/.idea/Game_Hangman.iml" filepath="$PROJECT_DIR$/python/Game_Hangman/.idea/Game_Hangman.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/jason-learne.iml" filepath="$PROJECT_DIR$/.idea/jason-learne.iml" />
+    </modules>
+  </component>
+</project>
